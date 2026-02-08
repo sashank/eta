@@ -1,0 +1,15 @@
+{
+  "description": "Mercury configuration for encrypted traffic analysis",
+  "command_template": "\nmercury \\\n  -r {input_file} \\\n  -f {output_file} \\\n  -a \\\n  --select \"tls.client_hello,tls.server_hello,http.request,dns\" \\\n  --dns \\\n  --certs\n",
+  "options": {
+    "-r <file>": "Read packets from PCAP file",
+    "-f <file>": "Write fingerprints to JSON file",
+    "-a": "Enable process identification analysis",
+    "--select": "Filter specific protocol messages (e.g., tls.client_hello)",
+    "--dns": "Include DNS response data in output",
+    "--certs": "Include X.509 certificate data in output",
+    "-c <interface>": "Live capture from network interface",
+    "--threads <n>": "Number of processing threads for high-performance capture"
+  },
+  "pmercury_command": "\n# Cross-platform Python version\npmercury -r {input_file} -f {output_file}\n"
+}

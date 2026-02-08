@@ -1,0 +1,11 @@
+client,category,is_malware,ja3_hash,ja4,ja4_a,ja4_version,cipher_count,extension_count,threat_level,label,description
+Chrome_120,browser,False,b32309a26951912be7dba376398abc3b,t12d151500_8daaf6152771_de6f32d20ee0,t12d151500,12,15,15,LOW,BENIGN,Google Chrome browser v120
+Firefox_121,browser,False,22b4a972e6517c0b49c5c76835667c2d,t12d171500_5b57614c22b0_cce44815f476,t12d171500,12,17,15,LOW,BENIGN,Mozilla Firefox browser v121
+Safari_17,browser,False,541a96d60d458738222478cf37f0f49e,t12d171400_5b57614c22b0_d060ef849fc6,t12d171400,12,17,14,LOW,BENIGN,Apple Safari browser v17
+Edge_120,browser,False,b32309a26951912be7dba376398abc3b,t12d151500_8daaf6152771_de6f32d20ee0,t12d151500,12,15,15,LOW,BENIGN,Microsoft Edge browser v120
+Python_Requests,library,False,6ec2896feff5746955f700c0023f5804,t12d140900_c866b44c5a26_8ebfdaddfa31,t12d140900,12,14,9,LOW,BENIGN,Python requests library
+Curl_8,tool,False,cafe522b1f077145bca328ed52621259,t12d151200_8daaf6152771_ab3bd820aee8,t12d151200,12,15,12,LOW,BENIGN,curl command-line tool v8
+Emotet,malware,True,2a1d91f78b7720d14c41580cf370e50e,t12d130800_a8aa6f829859_f206c267a2cf,t12d130800,12,13,8,HIGH,MALWARE,Emotet banking trojan
+Trickbot,malware,True,c8b82877f239ea11774829c52061e544,t12d140700_ab303caad840_4a5fcc8158d4,t12d140700,12,14,7,HIGH,MALWARE,TrickBot malware
+Cobalt_Strike,malware,True,c6420b5cb3bdb565bb5510e073553510,t12d151000_5e95b906059d_6a1055e47c9d,t12d151000,12,15,10,HIGH,MALWARE,Cobalt Strike beacon
+Qakbot,malware,True,18355ff881870717ce96f2b5e527d541,t12d140700_1257f90867e7_4a5fcc8158d4,t12d140700,12,14,7,HIGH,MALWARE,Qakbot/QBot malware
