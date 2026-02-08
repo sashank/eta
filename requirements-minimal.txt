@@ -1,0 +1,36 @@
+# Minimal requirements for Module 09 Network Traffic Profiling
+# Core packages only - install optional packages separately as needed
+
+# Data science core
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Imbalanced data handling
+imbalanced-learn>=0.11.0
+
+# Gradient boosting
+xgboost>=2.0.0
+
+# Web API
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Jupyter environment
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.1.0
+
+# Utilities
+tqdm>=4.66.0
+requests>=2.31.0
+python-dotenv>=1.0.0
